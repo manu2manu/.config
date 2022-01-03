@@ -20,7 +20,10 @@ require'nvim-treesitter.configs'.setup {
     "html",
     "scss",
     "typescript",
-    "vue"
+    "vue",
+    "css",
+    "graphql",
+    "lua"
   },
 }
 

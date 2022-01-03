@@ -8,7 +8,8 @@ let mapleader=" "
 " SHIFT-TAB will go back
  nnoremap <S-TAB> :bprevious<CR>
 
-" Select all nmap <C-a> gg<S-v>G
+" Select all 
+nmap <C-a> gg<S-v>G
 
 " Increment/decrement
 nnoremap + <C-a>

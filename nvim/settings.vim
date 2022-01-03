@@ -84,6 +84,7 @@ endif
 " ---------------------------------------------------------------------
 " JavaScript
 au BufNewFile,BufRead *.es6 setf javascript
+au BufNewFile,BufRead *.js setf javascript
 " TypeScript React
 au BufNewFile,BufRead *.tsx setf typescriptreact
 " TypeScript
