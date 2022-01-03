@@ -1,0 +1,21 @@
+Code - OSS/
+Microsoft/
+QtProject.conf
+Thunar/
+autostart/
+configstore/
+dconf/
+geeqie/
+google-chrome/
+gtk-3.0/
+htop/
+menus/
+mimeapps.list
+neofetch/
+nitrogen/
+nomacs/
+pavucontrol.ini
+pulse/
+vlc/
+volumeicon/
+xfce4/
