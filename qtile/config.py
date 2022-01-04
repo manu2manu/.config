@@ -183,6 +183,7 @@ keys = [
 
 groups = [
     Group("", layout='monadtall'),
+    Group("ﲵ", layout='monadtall'),
     Group("", layout='monadtall'),
     Group("", layout='monadtall'),
     Group("", layout='monadtall'),
