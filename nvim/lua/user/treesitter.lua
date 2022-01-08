@@ -41,6 +41,26 @@ configs.setup {
   },
   context_commentstring = {
     enable = true,
-    enable_autocmd = false,
+--    enable_autocmd = false,
+    config = {
+      typescript = { __default = '// %s', __multiline = '/* %s */' },
+      javascript = {
+        __default = '// %s',
+        jsx_element = '{/* %s */}',
+        jsx_fragment = '{/* %s */}',
+        jsx_attribute = '// %s',
+        comment = '// %s'
+      },
+      tsx = {
+        __default = '// %s',
+        __multiline = '/* %s */',
+        jsx_element = '{/* %s */}',
+        jsx_fragment = '{/* %s */}',
+        jsx_attribute = { __default = '// %s', __multiline = '/* %s */' },
+        comment = { __default = '// %s', __multiline = '/* %s */' },
+        call_expression = { __default = '// %s', __multiline = '/* %s */' },
+        statement_block = { __default = '// %s', __multiline = '/* %s */' },
+      },
+    }
   },
 }
