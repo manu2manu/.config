@@ -54,6 +54,7 @@ return packer.startup(function(use)
   use 'nvim-lualine/lualine.nvim' -- status bar
   use "akinsho/toggleterm.nvim"
   use "norcalli/nvim-colorizer.lua"
+  use "ahmedkhalf/project.nvim"
 
   -- Colorschemes
   -- use "lunarvim/colorschemes" -- A bunch of colorschemes you can try out
